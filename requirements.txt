@@ -1,0 +1,12 @@
+streamlit
+python-dotenv
+langchain
+langchain-community
+langchain-text-splitters
+langchain-groq
+sentence-transformers
+huggingface-hub
+groq
+pypdf
+qdrant-client
+langchain-qdrant

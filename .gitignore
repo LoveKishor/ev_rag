@@ -1,0 +1,154 @@
+# ============================
+# Python & Virtual Environment
+# ============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Virtual environments
+newenv/
+venv/
+env/
+ENV/
+.newenv/
+.venv/
+env.bak/
+venv.bak/
+env/
+.env.bak/
+
+# ============================
+# IDE & Editor Files
+# ============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.iml
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# ============================
+# Environment Variables (CRITICAL)
+# ============================
+.env
+.env.local
+.env.*.local
+*.env
+
+# ============================
+# Vector Database & Local Data (if any)
+# ============================
+chroma_db/
+pinecone_data/
+*.db
+*.sqlite3
+*.sqlite
+*.duckdb
+*.faiss
+*.pickle
+*.pkl
+*.joblib
+
+# ============================
+# Model Cache & Data
+# ============================
+models/
+*.h5
+*.pb
+*.tflite
+*.onnx
+*.bin
+*.onnx_data
+.ipynb_checkpoints/
+*.ipynb
+
+# HuggingFace local cache (if you download models locally)
+# Uncomment the line below if you want to avoid uploading large model files
+# ~/.cache/huggingface/
+
+# ============================
+# Logs & Temporary Files
+# ============================
+*.log
+logs/
+*.tmp
+*.temp
+temp/
+tmp/
+*.dump
+*.dmp
+*.prof
+*.stderr
+*.stdout
+
+# ============================
+# Streamlit & Web Files
+# ============================
+.streamlit/secrets.toml
+.streamlit/config.toml
+*.html
+*.css.map
+*.js.map
+
+# ============================
+# OS & Miscellaneous
+# ============================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.bak
+*.orig
+*.rej
+*.patch
+
+# ============================
+# Testing & Coverage
+# ============================
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+*.cover
+*.py,cover
+.hypothesis/
+.ropeproject/
+
+# ============================
+# Deployment specific
+# ============================
+*.tar.gz
+*.zip
+*.rar
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+
+# ============================
+# Project specific (optional)
+# ============================
+# If you save uploaded PDFs temporarily, ignore them
+uploads/
+downloads/
+pdfs/
+*.pdf
+*.docx
+*.pptx
+*.xlsx
+
+# ============================
+# Jupyter Notebook (if used)
+# ============================
+.ipynb_checkpoints/
+*.ipynb
